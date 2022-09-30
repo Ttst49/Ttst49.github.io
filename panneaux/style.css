@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.panneaux{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+}
+.panneau{
+
+    flex: 1;
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s flex cubic-bezier(.26,.04,.21,.74);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.panneau:hover{
+    flex: 5;
+    
+}
+
+.paysage1{
+    background-image: url("images/paysage1.jpg");
+}
+.paysage2{
+    background-image: url("images/paysage2.jpg");
+}
+.paysage3{
+    background-image: url("images/paysage3.jpg");
+}
+.paysage4{
+    background-image: url("images/paysage4.jpg");
+}
+.paysage5{
+    background-image: url("images/paysage5.jpg");
+}
+
+.panneau>p.paragrapheduhaut{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5;
+    opacity: 0%;
+    transform: translateY(-200%);
+    justify-content: space-around;
+    transition: 2s;
+
+}
+.panneau>p.paragraphedubas{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5;
+    opacity: 0%;
+    transform: translateY(200%);
+    justify-content: space-around;
+    transition: 2s;
+    
+}
+.panneau>p.photo{
+    width: 150px;
+    height: 150px;
+    border: solid rgb(255, 255, 255) 1px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-image: url("images/Obama.jpg");
+    background-size: cover;
+    transform: translateY(-1200%);
+    justify-content: space-around;
+    transition: 1.5s;
+}
+
+
+.panneau:hover .paragraphedubas{
+    transform: translateY(0%);
+    opacity: 100%;
+}
+.panneau:hover .paragrapheduhaut{
+    transform: translateY(0%);
+    opacity: 100%;
+}
+.panneau:hover>.photo{
+    transform: translateY(0%);
+}
