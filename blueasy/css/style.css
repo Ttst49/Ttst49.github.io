@@ -18,7 +18,7 @@
 }
 
 .bg{
-    background-image: url("images/HERO.jpg");
+    background-image: url("../images/HERO.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,7 +133,7 @@ div.punchline{
 .image{
     display: flex;
     height: 30vh;
-    background-image: url("images/portfolio/1.png");
+    background-image: url("../images/portfolio/1.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 15px;
@@ -147,28 +147,28 @@ div.punchline{
 }
 
 .image1{
-    background-image: url("images/portfolio/1.png");
+    background-image: url("../images/portfolio/1.png");
 }
 .image2{
-    background-image: url("images/portfolio/2.png");
+    background-image: url("../images/portfolio/2.png");
 }
 .image3{
-    background-image: url("images/portfolio/3.png");
+    background-image: url("../images/portfolio/3.png");
 }
 .image4{
-    background-image: url("images/portfolio/4.png");
+    background-image: url("../images/portfolio/4.png");
 }
 .image5{
-    background-image: url("images/portfolio/5.png");
+    background-image: url("../images/portfolio/5.png");
 }
 .image6{
-    background-image: url("images/portfolio/6.png");
+    background-image: url("../images/portfolio/6.png");
 }
 .image7{
-    background-image: url("images/portfolio/7.png");
+    background-image: url("../images/portfolio/7.png");
 }
 .image8{
-    background-image: url("images/portfolio/8.png");
+    background-image: url("../images/portfolio/8.png");
 }
 
 .default{
@@ -221,7 +221,7 @@ iframe{
 }
 
 .logoTwitter{
-    background-image: url("images/twitter.png");
+    background-image: url("../images/twitter.png");
     background-size: 22px;
     background-repeat: no-repeat;
     background-position: center;
