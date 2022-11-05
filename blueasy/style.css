@@ -1,0 +1,247 @@
+.topbar{
+    background-color: rgba(0, 0, 0, 0.65);
+    margin: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: white;
+}
+
+.bg{
+    background-image: url("images/HERO.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.lowerHeader{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select{
+    border: deepskyblue 2px solid;
+    padding: 5px;
+}
+.gim{
+    border: rgba(0, 0, 0, 0) 2px solid;
+    padding: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #aba4a4;
+}
+
+.services{
+    background-color: deepskyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.punchline{
+    text-transform: uppercase;
+    background-color:rgba(0, 0, 0, 0.65) ;
+    color: white;
+    margin: 5px;
+}
+
+div.punchline{
+    display: flex;
+}
+
+.servicesInt{
+    color: white;
+    height: 70vh;
+    padding: 0;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.under-title{
+    text-transform: lowercase;
+    font-size: medium;
+    font-weight: bold;
+}
+.bon{
+    height: 30vh;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+.portfolio{
+    background-color: white;
+    padding: 50px;
+    justify-content: flex-start;
+}
+.port-title{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.port-buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.port-select{
+    color: black;
+    border: deepskyblue 2px solid;
+    padding-top: 8px;
+    margin-right: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+
+}
+.port-gim{
+    color: black;
+    border: rgba(0, 191, 255, 0) 2px solid;
+    padding: 8px;
+    font-weight: bold;
+}
+.nom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    height: 30vh;
+    background-image: url("images/portfolio/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+    padding: 15px;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.image1{
+    background-image: url("images/portfolio/1.png");
+}
+.image2{
+    background-image: url("images/portfolio/2.png");
+}
+.image3{
+    background-image: url("images/portfolio/3.png");
+}
+.image4{
+    background-image: url("images/portfolio/4.png");
+}
+.image5{
+    background-image: url("images/portfolio/5.png");
+}
+.image6{
+    background-image: url("images/portfolio/6.png");
+}
+.image7{
+    background-image: url("images/portfolio/7.png");
+}
+.image8{
+    background-image: url("images/portfolio/8.png");
+}
+
+.default{
+    height: 70vh;
+    background-color: #474d50;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.defaultb{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.loremDefault{
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.bouton{
+    border: #2d2b2b 2px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+p{
+    width: 40vw;
+}
+iframe{
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter{
+    background-color: deepskyblue;
+    height: 30vh;
+    display: flex;
+}
+.twitterTitle{
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+
+
+}
+
+.logoTwitter{
+    background-image: url("images/twitter.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5vh;
+
+
+
+}
+.twitterUnderTitle{
+    color: white;
+}
+
+
+.bio{
+    background-color: #5ca2c5;
+    height: 40vh;
+}
+
+.bioTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
