@@ -3,7 +3,7 @@ body{
     background-color: white;
 }
 .topbar{
-    background-color: rgba(0, 255, 255, 0.536);
+    background-color: rgba(0, 0, 0, 0.35);
     margin: 0;
     height: 10%;
     display: flex;
@@ -34,7 +34,7 @@ a.button{
 }
 
 .header{
-    background-image: url("images/plage.jpg");
+    background-image: url("images/everest.jpg");
 height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
@@ -43,18 +43,16 @@ background-position:bottom;
 }
 
 .punchline{
-    background-color: rgba(0, 255, 255, 0.592);
+    background-color: black;
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 2rem;
-    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold';
-    color: black;
-    text-shadow: -1px -1px white;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', serif;
+    color: whitesmoke;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 3px;
-    padding-bottom: .5px;
-    border-radius: 25px;
+    padding-bottom: 5px;
     text-align: center;
 
 
@@ -92,39 +90,41 @@ span.punchline{
 }
 
 .paysage1{
-    background-image: url("images/paysage1.jpg");
+    background-image: url("images/panneaux.png");
 }
 .paysage2{
-    background-image: url("images/paysage2.jpg");
+    background-image: url("images/blueasy.png");
 }
 .paysage3{
-    background-image: url("images/paysage3.jpg");
+    background-image: url("images/clock.png");
 }
 .paysage4{
-    background-image: url("images/paysage4.jpg");
+    background-image: url("images/rockslapping.png");
 }
 .paysage5{
-    background-image: url("images/paysage5.jpg");
+    background-image: url("images/weatherApp.png");
 }
 
 .panneau>p.ParagrapheDuHaut{
-    color: white;
+    color: #ffffff;
     font-weight: bolder;
-    font-size: 1.5;
+    font-size: 1.5rem;
     opacity: 0%;
-    transform: translateY(-1200%);
+    transform: translateY(-200%);
     justify-content: space-around;
     transition: 2s;
+    padding: 10px;
 
 }
 .panneau>p.ParagrapheDuBas{
-    color: white;
+    color: #ffffff;
     font-weight: bolder;
-    font-size: 1.5;
+    font-size: 1.5rem;
     opacity: 0%;
-    transform: translateY(1200%);
+    transform: translateY(100%);
     justify-content: space-around;
     transition: 2s;
+    padding: 10px;
     
 }
 .panneau>p.photo{
@@ -155,11 +155,10 @@ span.punchline{
     opacity: 100%;
 }
 
-.panneau>a.liendubas{
-    color: rgb(243, 243, 243);
+.lienDuBas{
+    color: rgb(255, 255, 255);
     font-weight: bolder;
-    font-size: 1.5;
-    opacity: 0%;
+    font-size: 1.5rem;
     transform: translateY(200%);
     justify-content: space-around;
     transition: 2s;
@@ -169,4 +168,9 @@ span.punchline{
 .panneau:hover>a.liendubas{
     transform: translateY(0%);
     opacity: 100%;
+}
+
+p{
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
