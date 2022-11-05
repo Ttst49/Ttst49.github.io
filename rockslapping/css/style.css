@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    background-image: url("../img/will smith.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.infos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.div,h2{
+    background-color: rgba(0, 0, 0, 0.22);
+    color: white;
+}
+.grid{
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    height: 300px;
+    width: 300px;
+    border: solid 5px white;
+}
+
+.chrisRock{
+    background-image: url("../img/chris.jpg");
+    background-size: cover;
+    background-position: center;
+}

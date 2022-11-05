@@ -1,0 +1,30 @@
+body{
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.red{
+    color:red;
+}
+
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 30vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px black solid;
+    border-radius: 15px;
+    max-height: 15vh;
+}
+
+.bouton{
+    margin-top: 10px;
+    padding: 15px;
+    border: white 2px solid;
+    border-radius: 15px;
+}

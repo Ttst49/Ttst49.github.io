@@ -1,0 +1,85 @@
+body{
+    display: flex;
+}
+
+.sided{
+    height: 78vh;
+    width: 20vw;
+    background-color: rgba(136, 107, 123, 0.12);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.city{
+    font-size: large;
+    font-weight: bold;
+    font-family: Gogh, sans-serif, "Times New Roman";
+    margin-top: 15px;
+
+}
+
+.informations{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mainCity{
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mainCity:hover{
+    background-color: rgba(80, 73, 73, 0.54);
+}
+
+.secondaryCity{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.secondaryCity:hover{
+    background-color: rgba(80, 73, 73, 0.54);
+}
+
+.thirdCity{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.thirdCity:hover{
+    background-color: rgba(80, 73, 73, 0.25);
+}
+
+.righted{
+    height: 78vh;
+    width:90vw;
+    border-left: rgba(0, 0, 0, 0.13) solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width:90vw;
+}
+.currentHour{
+    font-size: small;
+
+}
+.actualClimate{
+    font-size: small;
+
+}
+.degree{
+    font-size: large;
+
+}
+
+pressed{
+    background-color: rgb(92, 162, 197);
+}
