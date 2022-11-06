@@ -193,7 +193,7 @@ p{
     color: #ffffff;
     font-weight: bolder;
     font-size: 1.5rem;
-    transform: translateX(200%);
+    transform: translateX(400%);
     justify-content: space-around;
     transition: 2s;
     padding: 10px;
